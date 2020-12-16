@@ -1,15 +1,19 @@
 
             body {margin:0;}
 
-            .navbar {
-             overflow: hidden;
-             background-image: url(ccc5.png);
-             position: fixed;
-             top: 0;
-             width: 100%;
+			.fixed-nav-bar {
+			  position: fixed;
+			  top: 0;
+			  left: 0;
+			  z-index: 9999;
+			  width: 100%;
+			  height: 9%;
+			  background-color: #00a087;
+			  background-image: url(ccc5.png);
+			  overflow: hidden;
             }
 
-            .navbar a {
+            .fixed-nav-bar a {
              float: left;
              display: block;
              color: white;
@@ -18,7 +22,7 @@
              font-size: 30px;
              }
 
-             .navbar a:hover {
+             .fixed-nav-bar a:hover {
              background-image: url(Make the ghosts);
              color: black;
              }

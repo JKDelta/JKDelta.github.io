@@ -95,9 +95,9 @@
 													   .b1 {
 														   text-align: center
 													   }
-                                                           .responsive {
+                                                           .bob {
                                                            max-width: 100%;
-                                                           height: auto;
+                                                           height: 100%;
                                                            } 
 														        a:link {
                                                                 color: pink;
@@ -113,6 +113,9 @@ a:hover {
   color: #cf6e5d;
   background-color: transparent;
   text-decoration: underline;
+}
+.m{
+	href=
 }
 @media only screen and (max-width: 500px) {
   
@@ -139,21 +142,21 @@ a:hover {
 													   }			
                                                        .p1 {
 			                                           font-family: "Times New Roman", Times, serif;
-													   font-size: 20px			 
+													   font-size: 15px			 
                                                                   	 
 																	 
 																	 .section-1{
                               height: 25%;
                               background-image: url(bbb1.jpg);
                               background-attachment: fixed;
-                              background-size: 100% 100%;;
+                              background-size: 70% 100%;;
 	                          }
 
 	                         .section-2{
 							  height: 20%;
 		                     background-image: url(ddd1.jpg);
                              background-attachment: fixed;
-                             background-size: 100% 100%;;
+                             background-size: 100% 70%;;
 	                         }
 																	 
 																

@@ -1,5 +1,7 @@
 
-            body {margin:0;}
+            body {margin:0;
+			     
+			}
 
 			.fixed-nav-bar {
 			  position: fixed;
@@ -11,6 +13,7 @@
 			  background-color: #00a087;
 			  background-image: url(ccc5.png);
 			  overflow: hidden;
+			   background-size: 100% 100%;
             }
 
             .fixed-nav-bar a {
@@ -38,39 +41,38 @@
 		                    box-sizing: border-box;
 	                        }
 
-	                        .box{
-		                     height: 200px;
+	                        .box{		                     
 		                     padding: 40px 60px;
 		                     color: white;
 		                     font-family: sans-serif;
 	                         }
 							 
 	                         .section-1{
-                              height: 35vh;
+                              height: 35%;
                               background-image: url(bbb1.jpg);
                               background-attachment: fixed;
                               background-size: 100% 100%;;
 	                          }
 
 	                         .section-2{
-							  height: 35vh;
+							  height: 35%;
 		                     background-image: url(ddd1.jpg);
                              background-attachment: fixed;
                              background-size: 100% 100%;;
 	                         }
 
 	                         .section-3{
-							 height: 35vh;
+							 height: 30%;
 		                     background-image: linear-gradient(#030303, #410433);
 							 
 
 	                         }	  
 							 .section-4{
-							 height: 37vh;
+							 height: 33%;
 		                     background-image: linear-gradient(	#66003f, #520ee5, #200d88);
 	                         }	  
 							 .section-5{
-							 height: 30vh;
+							 height: 20vh;
 		                     background-image: linear-gradient(#2e007c, #090643, #030303);
 	                         }	  
                                                        h1{													   
@@ -87,17 +89,16 @@
                                                        .p1 {
 			                                           font-family: "Times New Roman", Times, serif;
 			                                           }	
-                                                        .z{
-														position: relative;
-                                                       top: -15px;
-                                                       left: 450px;
-														}						
+													   .b1 {
+														   text-align: center
+													   }
+                                                           .responsive {
+                                                           max-width: 100%;
+                                                           height: auto;
+                                                           } 
+																		
                                                                   	 
 																	 
 																	 
-																	 
-                                                                     div#middle{ min-width:800px; }
-                                                                     div#middle > div{ float:left; width:25%; }
-                                                                     div#middle > div > div{ border:#000 1px solid; padding: 20px; }
-                                                                     div#middle > div > div > img{ width:100%; }
+																
                                                                     

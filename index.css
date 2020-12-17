@@ -114,9 +114,47 @@ a:hover {
   background-color: transparent;
   text-decoration: underline;
 }
-																		
+@media only screen and (max-width: 500px) {
+  
+		.fixed-nav-bar a {
+             float: left;
+             display: block;
+             color: white;
+             padding: 25px 16px;
+             text-decoration: none;
+             font-size: 20px;
+             }			
+
+           h1{													   
+													   position: relative;
+                                                       top: 20px;
+                                                       left: 20px;
+													   font-size: 30px;
+													   color: white;
+													   }
+													  	
+                                                         h2{
+													   text-align: center;
+													   font-size: 30px;													   
+													   }			
+                                                       .p1 {
+			                                           font-family: "Times New Roman", Times, serif;
+													   font-size: 20px			 
                                                                   	 
 																	 
+																	 .section-1{
+                              height: 25%;
+                              background-image: url(bbb1.jpg);
+                              background-attachment: fixed;
+                              background-size: 100% 100%;;
+	                          }
+
+	                         .section-2{
+							  height: 20%;
+		                     background-image: url(ddd1.jpg);
+                             background-attachment: fixed;
+                             background-size: 100% 100%;;
+	                         }
 																	 
 																
                                                                     

@@ -95,10 +95,7 @@
 													   .b1 {
 														   text-align: center
 													   }
-                                                           .bob {
-                                                           max-width: 100%;
-                                                           height: 100%;
-                                                           } 
+                                                           
 														        a:link {
                                                                 color: pink;
                                                                 background-color: transparent;
@@ -158,6 +155,10 @@ a:hover {
                              background-attachment: fixed;
                              background-size: 100% 70%;;
 	                         }
+							 .bob {
+                                                           max-width: 100%;
+                                                           height: 100%;
+                                                           } 
 																	 
 																
                                                                     

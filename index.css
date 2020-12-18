@@ -20,9 +20,9 @@
              float: left;
              display: block;
              color: white;
-             padding: 25px 16px;
+             padding: 25px 12px;
              text-decoration: none;
-             font-size: 25px;
+             font-size: 20px;
              }
 
              .fixed-nav-bar a:hover {
@@ -41,6 +41,23 @@
 			 
 			 
 			 * {box-sizing:border-box}
+
+  a:link {
+                                                                color: pink;
+                                                                background-color: transparent;
+                                                                text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #cf6e5d;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 
 /* Slideshow container */
 .slideshow-container {
